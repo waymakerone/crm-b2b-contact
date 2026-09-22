@@ -4,18 +4,55 @@
   "description": "Contact-centric B2B CRM with companies, deals, pipelines, and lifecycle stages — powered by Commander Contacts, Tasks, Calendar, Journeys, and Docs",
   "category": "tool",
   "framework": "react",
-  "tags": ["react", "typescript", "crm", "sales", "pipeline", "contacts", "deals", "b2b"],
+  "tags": [
+    "react",
+    "typescript",
+    "crm",
+    "sales",
+    "pipeline",
+    "contacts",
+    "deals",
+    "b2b"
+  ],
   "is_featured": true,
   "difficulty": "intermediate",
   "estimated_time": "4-6 hours",
-  "commander_tools": ["Contacts", "Tables", "Tasks", "Calendar", "Journeys", "Docs", "Metrics"],
+  "commander_tools": [
+    "Contacts",
+    "Tables",
+    "Tasks",
+    "Calendar",
+    "Journeys",
+    "Docs",
+    "Metrics"
+  ],
   "app_type": "ex",
   "sections": [
-    { "id": "contacts", "name": "Contacts & Companies", "purpose": "Contact records linked to companies with activity timeline and notes" },
-    { "id": "deals", "name": "Deals Pipeline", "purpose": "Kanban pipeline tracking deals through stages with drag-and-drop" },
-    { "id": "activities", "name": "Activities", "purpose": "Log calls, emails, meetings, and tasks linked to contacts and deals" },
-    { "id": "email-sequences", "name": "Email Sequences", "purpose": "Automated follow-up sequences powered by Commander Journeys" },
-    { "id": "dashboard", "name": "Sales Dashboard", "purpose": "Pipeline value, conversion rates, activity metrics, and forecasting" }
+    {
+      "id": "contacts",
+      "name": "Contacts & Companies",
+      "purpose": "Contact records linked to companies with activity timeline and notes"
+    },
+    {
+      "id": "deals",
+      "name": "Deals Pipeline",
+      "purpose": "Kanban pipeline tracking deals through stages with drag-and-drop"
+    },
+    {
+      "id": "activities",
+      "name": "Activities",
+      "purpose": "Log calls, emails, meetings, and tasks linked to contacts and deals"
+    },
+    {
+      "id": "email-sequences",
+      "name": "Email Sequences",
+      "purpose": "Automated follow-up sequences powered by Commander Journeys"
+    },
+    {
+      "id": "dashboard",
+      "name": "Sales Dashboard",
+      "purpose": "Pipeline value, conversion rates, activity metrics, and forecasting"
+    }
   ],
   "design": {
     "colorPalette": "Enterprise — navy (#001126) primary, gold (#A49886) accent, blue (#3D5B6C) secondary, sand (#F5F5F0) background",
@@ -26,5 +63,12 @@
   "starter_prompt": "I want to build a B2B CRM using the WaymakerOS CRM B2B Contact blueprint. Use host_blueprint_get with blueprint_id \"crm-b2b-contact\" to get the full blueprint, then guide me through building it.",
   "seo_title": "B2B CRM Template — Build with AI | WaymakerOS",
   "seo_description": "Build a custom B2B CRM with contact management, deal pipeline, and email sequences. Replaces HubSpot — built on your data.",
-  "seo_keywords": ["B2B CRM template", "CRM app builder", "sales pipeline tool"]
+  "seo_keywords": [
+    "B2B CRM template",
+    "CRM app builder",
+    "sales pipeline tool"
+  ],
+  "topics": [
+    "sales"
+  ]
 }
